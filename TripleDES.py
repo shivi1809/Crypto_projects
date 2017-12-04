@@ -107,7 +107,7 @@ def keyGen(pwd = ''):
         for i in range(0,16):
             new_key = [-1]*48
             
-            #apply lft shifts
+            #apply left shifts
             for j in range(0,LSHIFT_MAP[i]):
                 C = C0[1:]
                 C.append(C0[0])
@@ -719,34 +719,7 @@ while count2 == 1:
 
 
 print('Thank you for using this program')
-print('................................')
 
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
-
-
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
 
 
 
